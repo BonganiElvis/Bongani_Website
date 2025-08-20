@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bongani Gqweta | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <nav class="bg-gray-900 text-white p-4 sticky top-0 z-50 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Bongani Gqweta</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+        <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-400 to-indigo-500 text-white text-center">
+    <img src="profile.jpg" alt="Profile Photo of Bongani Gqweta" class="w-32 h-32 rounded-full mb-4 border-4 border-white">
+    <h1 class="text-4xl md:text-5xl font-bold mb-2">Hi, I'm Bongani 👋</h1>
+    <p class="text-xl md:text-2xl">Aspiring Software Developer | Passionate about Tech</p>
+  </section>
+
+  <section id="about" class="py-20 container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="max-w-xl mx-auto text-lg">
+      I’m a Basic Qualified Pharmacist Assistant transitioning into tech. 
+      I’m currently applying for the BBD Bursary to grow my skills in software development.
+    </p>
+  </section>
+
+  <section id="projects" class="py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-10">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:scale-105 transform transition">
+          <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+          <p>My personal portfolio website showcasing my skills and projects.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:scale-105 transform transition">
+          <h3 class="text-xl font-semibold mb-2">Task Manager App</h3>
+          <p>A CRUD application to manage tasks, to be built with JavaScript or Python.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow hover:scale-105 transform transition">
+          <h3 class="text-xl font-semibold mb-2">Weather App</h3>
+          <p>Real-time weather app using an external API to fetch data dynamically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20 container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+    <p class="text-lg mb-2">Email: <a href="mailto:bonganigqweta94@gmail.com" class="text-blue-500 hover:underline">bonganigqweta94@gmail.com</a></p>
+    <p class="text-lg mb-2">GitHub: <a href="https://github.com/BonganiElvis" target="_blank" class="text-blue-500 hover:underline">github.com/BonganiElvis</a></p>
+    
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
